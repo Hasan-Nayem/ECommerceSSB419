@@ -1,4 +1,7 @@
-<footer class="ps-footer ps-footer--2">
+{{-- Old Footer With Short Newsletter search Box --}}
+
+
+{{-- <footer class="ps-footer ps-footer--2">
             <div class="container">
                 <div class="ps-footer__content">
                     <div class="row">
@@ -57,7 +60,10 @@
                 </div>
                 <div class="ps-footer__copyright">
                     <p>© 2018 Martfury. All Rights Reserved</p>
-                    <p><span>We Using Safe Payment For:</span><a href="#"><img src="img/payment-method/1.jpg" alt=""></a><a href="#"><img src="img/payment-method/2.jpg" alt=""></a><a href="#"><img src="img/payment-method/3.jpg" alt=""></a><a href="#"><img src="img/payment-method/4.jpg" alt=""></a><a href="#"><img src="img/payment-method/5.jpg" alt=""></a></p>
+                    <p><span>We Using Safe Payment For:</span><a href="#"><img src="{{ asset('frontend/img/payment-method/1.jpg') }}" alt=""></a><a href="#"><img src=" {{ asset('frontend/img/payment-method/2.jpg') }} " alt=""></a><a href="#"><img src="{{ asset('frontend/img/payment-method/3.jpg') }}" alt=""></a><a href="#"><img src="{{ asset('frontend/img/payment-method/4.jpg') }}" alt=""></a><a href="#"><img src="{{ asset('frontend/img/payment-method/5.jpg') }}" alt=""></a></p>
                 </div>
             </div>
-        </footer>
+        </footer> --}}
+
+
+

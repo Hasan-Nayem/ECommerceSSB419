@@ -48,6 +48,96 @@ class PagesController extends Controller
     }
 
     /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function checkout()
+    {
+        return view('frontend.checkout');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function vendorList()
+    {
+        return view('frontend.vendorList');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function myAccount()
+    {   
+        return view('frontend.myAccount');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function shoppingCart()
+    {   
+        return view('frontend.shoppingCart');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function storeDetailInfo()
+    {   
+        return view('frontend.storeDetailInfo');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function storeList()
+    {   
+        return view('frontend.storeList');
+    }
+
+     /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function userInformation()
+    {   
+        return view('frontend.userInformation');
+    }
+
+     /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function vendorDashboard()
+    {   
+        return view('frontend.vendorDashboard');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function vendorStore()
+    {   
+        return view('frontend.vendorStore');
+    }
+
+    /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response

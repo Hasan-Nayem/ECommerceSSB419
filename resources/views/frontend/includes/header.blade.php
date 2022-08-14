@@ -6,4 +6,5 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
+    <link rel="icon" href="{{ asset('frontend/img/Flat-Ecommerce.ico') }}" type="image/x-icon">
     <title>Martfury - Multipurpose Marketplace HTML5 Template + Admin Template</title>

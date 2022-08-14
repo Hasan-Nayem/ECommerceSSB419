@@ -26,6 +26,15 @@ Route::get('/', [PagesController::class, "homepage"])->name('homepage');
 Route::get('/404', [PagesController::class, "pageNotFound"])->name('pageNotFound');
 Route::get('/about-us', [PagesController::class, "aboutUs"])->name('aboutUs');
 Route::get('/contact-us', [PagesController::class, "contactUs"])->name('contactUs');
+Route::get('/checkout', [PagesController::class, "checkout"])->name('checkout');
+Route::get('/vendor-list', [PagesController::class, "vendorList"])->name('vendorList');
+Route::get('/my-account', [PagesController::class, "myAccount"])->name('myAccount');
+Route::get('/shopping-cart', [PagesController::class, "shoppingCart"])->name('shoppingCart');
+Route::get('/store-detail-info', [PagesController::class, "storeDetailInfo"])->name('storeDetailInfo');
+Route::get('/store-list', [PagesController::class, "storeList"])->name('storeList');
+Route::get('/user-info', [PagesController::class, "userInformation"])->name('userInformation');
+Route::get('/vendor-dashboard', [PagesController::class, "vendorDashboard"])->name('vendorDashboard');
+Route::get('/vendor-store', [PagesController::class, "vendorStore"])->name('vendorStore');
 
 
 
