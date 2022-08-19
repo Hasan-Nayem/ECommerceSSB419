@@ -109,9 +109,9 @@
 
 									            <div class="col-12">
 									                <label class="form-label">User Role</label>
-									                <select class="form-control" name="role">
+									                <select class="form-control" name="role" Disabled="disabled">
 									                	<option>Please Select the User Role</option>
-									                	<option value="2">Vendor</option>
+									                	<option value="2" SELECTED>Vendor</option>
 									                	<option value="3">Customer</option>
 									                </select>
 									            </div>

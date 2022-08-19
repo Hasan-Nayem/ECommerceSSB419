@@ -9,6 +9,7 @@ use App\Http\Controllers\Backend\ProductController;
 use App\Http\Controllers\Backend\DivisionController;
 use App\Http\Controllers\Backend\DistrictController;
 use App\Http\Controllers\Backend\VendorController;
+use App\Http\Controllers\Backend\CustomerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -96,6 +97,15 @@ Route::group(['prefix' => 'admin'] , function(){
         Route::post('/destroy/{id}', [VendorController::class, "destroy"])->middleware(['auth'])->name('vendor.destroy');
     });
 
+    // Customer Group
+    Route::group(['prefix' => '/customer'], function(){
+        Route::get('/manage', [CustomerController::class, "index"])->middleware(['auth'])->name('customer.manage');
+        Route::get('/create', [CustomerController::class, "create"])->middleware(['auth'])->name('customer.create');
+        Route::post('/store', [CustomerController::class, "store"])->middleware(['auth'])->name('customer.store');        
+        Route::get('/edit/{id}', [CustomerController::class, "edit"])->middleware(['auth'])->name('customer.edit');
+        Route::post('/update/{id}', [CustomerController::class, "update"])->middleware(['auth'])->name('customer.update');
+        Route::get('/destroy/{id}', [CustomerController::class, "destroy"])->middleware(['auth'])->name('customer.destroy');
+    });
 
     // Division Group
     Route::group(['prefix' => '/division'], function(){

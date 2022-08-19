@@ -176,7 +176,7 @@
               </a>
               <ul>
                 <li> 
-                  <a href="app-emailbox.html"><i class="bi bi-circle"></i>Add New Currency</a>
+                  <a href=""><i class="bi bi-circle"></i>Add New Currency</a>
                 </li>
                 <li> 
                   <a href="app-chat-box.html">
@@ -213,10 +213,10 @@
               </a>
               <ul>
                 <li> 
-                  <a href="app-emailbox.html"><i class="bi bi-circle"></i>Add New Customer</a>
+                  <a href="{{ route('customer.create') }}"><i class="bi bi-circle"></i>Add New Customer</a>
                 </li>
                 <li> 
-                  <a href="app-chat-box.html">
+                  <a href="{{ route('customer.manage') }}">
                     <i class="bi bi-circle"></i>Manage All Customers
                   </a>
                 </li>
